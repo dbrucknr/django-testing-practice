@@ -2,6 +2,7 @@
 
 1. `source env/bin/activate`
 2. `pip install -r requirements.txt`
+3. `python src/manage.py runserver`
 
 # Project Creation Steps:
 
@@ -14,3 +15,9 @@
 7. pip install pytest
 8. pip freeze > requirements.txt
 9. pytest --version
+10. mkdir src && cd src
+11. django-admin startproject api .
+12. python manage.py startapp accounts
+13. python manage.py makemigrations
+14. python manage.py migrate
+15. python manage.py createsuperuser
