@@ -4,6 +4,10 @@
 2. `pip install -r requirements.txt`
 3. `python src/manage.py runserver`
 
+# To run tests:
+
+- input `pytest` into terminal from main directory (README, env, src, requirements.txt all visible)
+
 # Project Creation Steps:
 
 1. python --version
